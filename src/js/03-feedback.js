@@ -20,7 +20,6 @@ function checkStorageStatus() {
     form.message.value = savedData.message;
   }
 }
-
 checkStorageStatus();
 
 function onSubmit(evt) {
@@ -34,4 +33,3 @@ function onSubmit(evt) {
     message: userInput.message,
   });
 }
-console.log(userInput);
